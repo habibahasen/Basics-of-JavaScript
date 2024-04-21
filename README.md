@@ -8,4 +8,4 @@ Introduction to javascript, variables and data types
 
 ## Day 2
 
-Control Flow and Conditional Statements
+Control Flow and Conditional Statements 
