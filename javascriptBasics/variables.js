@@ -1,15 +1,15 @@
 console.log("Hello World!");
 
 // Declaring variables and Assigning  Values
-var variable; // if we use var we can assign any variable type we want
-variable = 2;
+var variable; 
 variable = "changeable";
+variable = 10;
 variable = 2 > 5;
 variable = undefined;
-let pi = 3.14;
+const pi = 3.14;
 console.log(typeof(variable));
 console.log(variable);
-// console.log(pi);
+console.log(pi);
 
 
 // Basic operations
@@ -25,8 +25,9 @@ concat = string1 + string2;  //concatenation
 console.log(sum);
 console.log(concat);
 
-var multiply = value1 * value2;
+var multiply = value1 * value2; // Multiplication
 console.log(multiply);
  
-
+var devide = value1 / value2;  // division
+console.log(devide);
 
