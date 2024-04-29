@@ -13,6 +13,8 @@ while(i <8){
     i++;
 }
 
+const { keyIn } = require("readline-sync");
+
 //do while loop
 const readlineSync = require('readline-sync');
 let userInput;
@@ -22,3 +24,36 @@ do{
     num = parseFloat(userInput);
 }while (isNaN(num) || num <=0);
 console.log(`you entered a valid positive number ${num}`);
+
+//iterate over array
+
+const scores = [22,54,76,92,43,33];
+let j = 0;
+//while
+while(j < scores.length){
+    console.log(scores[j]);
+    j++;
+}
+//do ...while
+do{
+    console.log(scores[j])
+    j++;
+}while(j< scores.length);
+
+//
+let k = 6;
+do {
+    console.log(scores[k]);
+    k++;
+}while(k < scores.length)
+
+//for 1
+for(let m = 0; m < scores.length; m++){
+    console.log(scores[m]);
+}
+
+// for ...in
+for (i in scores){
+    console.log(scores[i]);
+}
+
