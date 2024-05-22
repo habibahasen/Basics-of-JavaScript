@@ -1,5 +1,15 @@
 // create array
-const fruits = ['apple', 'banana', 'orange'];
+const fruits = [
+    'apple', 
+    'banana', 
+    'orange',
+    {
+    pseudoFruits : function(){
+        console.log("Rosehip is one example")
+    }
+}
+    
+];
 const vegs = new Array(10);// array with length 10
 
 // Access elements of array
@@ -33,3 +43,4 @@ let slicedFruit = fruits.slice(0,4);
 let splicedFruit = fruits.splice(0,2,'pearl', 'kiwi');
 console.log(fruits)
 console.log(slicedFruit)
+fruits[3].pseudoFruits();
